@@ -9,6 +9,17 @@
   flex-direction: column-reverse;
 }
 
+.flexDestaque {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin-top: 25px;
+}
+
 /* Smartphone Portrait */
 
 /*
@@ -26,7 +37,7 @@ main {
 }
 
 .destaque {
-  height: 50vh;
+  padding: 25px 0px 50px 0px; /*top right bottom left*/
 }
 
 .conteudo {
@@ -82,8 +93,6 @@ main {
 }
 
 End Background video */
-
-
 
 /* Rodapé */
 footer {
